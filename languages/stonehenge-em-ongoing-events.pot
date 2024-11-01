@@ -1,0 +1,477 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Events Manager - Ongoing Events\n"
+"POT-Creation-Date: 2020-06-11 13:16+0200\n"
+"PO-Revision-Date: 2020-06-11 13:16+0200\n"
+"Last-Translator: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"Language-Team: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: stonehenge-em-ongoing-events.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/class-admin.php:20
+msgid "How do Ongoing Events work?"
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"This add-on lets you create single events that are linked together, but only "
+"require one booking for the user to attend all events. This can be useful if "
+"you are organizing classes, multi-day workshops or seminars, for example."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"The idea is that you create one single event as the first day of this "
+"ongoing series. In that event you can specify the other dates and times for "
+"the underlying events."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"When you publish the main event, the sub events will be created "
+"automatically. Their content will reflect that it is an ongoing sub event "
+"and link back to the booking form of the main event."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"If you do not want to display the predefined Ongoing Events Table, simply "
+"remove the shortcode from the page content after creation."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"<b>Note:</b> Dates and times of the sub events can only be maintained in the "
+"main event."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid "Date & Time settings."
+msgstr ""
+
+#: classes/class-admin.php:20
+#, php-format
+msgid ""
+"This add-on will use the formatting settings in %s to display dates and time."
+msgstr ""
+
+#: classes/class-admin.php:20
+msgid ""
+"The jQuery variant for date and time pickers will be automatically converted "
+"to have the same lay-out as their PHP equivalents, so there are no new "
+"settings to be set."
+msgstr ""
+
+#: classes/class-admin.php:24
+msgid "Show Info"
+msgstr ""
+
+#: classes/class-admin.php:27
+msgid ""
+"Would you like to show Ongoing Events info in the Admin Events List page?"
+msgstr ""
+
+#: classes/class-admin.php:32
+msgid "Delete Data"
+msgstr ""
+
+#: classes/class-admin.php:35
+msgid ""
+"Automatically delete all data from your database when you uninstall this "
+"plugin?"
+msgstr ""
+
+#: classes/class-admin.php:49
+msgid ""
+"Please specify below how you want certain fields of the sub events to be "
+"named. Your input will be used throughout this plugin in the Admin and Front-"
+"End."
+msgstr ""
+
+#: classes/class-admin.php:53
+msgid "Ask to Enable"
+msgstr ""
+
+#: classes/class-admin.php:56
+msgid "This question will be shown in the Edit Event Page before the toggle."
+msgstr ""
+
+#: classes/class-admin.php:57
+msgid "Does this event span over multiple days?"
+msgstr ""
+
+#: classes/class-admin.php:61 classes/class-admin.php:69
+#: classes/class-admin.php:77 classes/class-admin.php:86
+#, php-format
+msgid "Label for %s"
+msgstr ""
+
+#: classes/class-admin.php:61
+msgid "Item"
+msgstr ""
+
+#: classes/class-admin.php:63
+msgid "Day"
+msgstr ""
+
+#: classes/class-admin.php:65
+msgid "This indicates the Sub Event. Use something like \"Day\" or \"Part\"."
+msgstr ""
+
+#: classes/class-admin.php:90
+msgid "This is the Header of the [ongoing-events] table."
+msgstr ""
+
+#: classes/class-admin.php:94
+msgid "Booking Notice"
+msgstr ""
+
+#: classes/class-admin.php:98
+msgid ""
+"This message is shown below the Ongoing Events Table to tell visitors they "
+"only have to book one time for all dates."
+msgstr ""
+
+#: classes/class-admin.php:102
+msgid "Wildcards"
+msgstr ""
+
+#: classes/class-admin.php:104
+msgid ""
+"You can use the following wildcards in sections below to target the specific "
+"information:"
+msgstr ""
+
+#: classes/class-admin.php:108
+msgid "Sub Event Indication"
+msgstr ""
+
+#: classes/class-admin.php:115
+msgid "Sub Event Content"
+msgstr ""
+
+#: classes/class-admin.php:125
+msgid "Sub Event Excerpt"
+msgstr ""
+
+#: classes/class-admin.php:140
+msgid "Displays post ID of the Main Event."
+msgstr ""
+
+#: classes/class-admin.php:141
+msgid "Displays event name of the Main Event."
+msgstr ""
+
+#: classes/class-admin.php:142
+msgid "Displays start date of the Main Event."
+msgstr ""
+
+#: classes/class-admin.php:143
+msgid "Displays start time of the Main Event."
+msgstr ""
+
+#: classes/class-admin.php:144
+msgid "Displays end time of the Main Event."
+msgstr ""
+
+#: classes/class-admin.php:145
+msgid "Displays label of each sub event (first field above)."
+msgstr ""
+
+#: classes/class-admin.php:146
+msgid "Displays the incremented number of this specific Sub Event."
+msgstr ""
+
+#: classes/class-admin.php:147
+msgid "Displays the start date of this specific Sub Event."
+msgstr ""
+
+#: classes/class-admin.php:148
+msgid "Displays the start time of this specific Sub Event."
+msgstr ""
+
+#: classes/class-admin.php:149
+msgid "Displays the end time of this specific Sub Event."
+msgstr ""
+
+#: classes/class-admin.php:150
+msgid "Displays the date of the last event in this series."
+msgstr ""
+
+#: classes/class-functions.php:94 classes/class-metabox.php:60
+msgid "This is the main event of an ongoing event series."
+msgstr ""
+
+#: classes/class-functions.php:95
+msgid "Dates and booking are maintained here."
+msgstr ""
+
+#: classes/class-functions.php:96 classes/class-metabox.php:62
+msgid ""
+"If you delete this event, all linked sub-events will be deleted as well."
+msgstr ""
+
+#: classes/class-functions.php:105
+msgid "These details are maintained in the Main Event."
+msgstr ""
+
+#: classes/class-functions.php:155
+msgid "Events Manager Settings"
+msgstr ""
+
+#: classes/class-functions.php:156
+#, php-format
+msgctxt "This plugin uses the formatting in your settings"
+msgid "This plugin uses the %1$s in your %2$s."
+msgstr ""
+
+#: classes/class-functions.php:206
+msgid "This is a Main Event of an ongoing event series."
+msgstr ""
+
+#: classes/class-ical.php:20
+#, php-format
+msgid ""
+"To display the Ongoing Events Table in your %s, you can use the placeholder "
+"%s."
+msgstr ""
+
+#: classes/class-ical.php:26
+#, php-format
+msgid ""
+"By adding the placeholder %s to end of your %s, a .ics file will be added to "
+"the email."
+msgstr ""
+
+#: classes/class-ical.php:26
+msgid ""
+"The attachment will only contain the events in its own Ongoing Series and "
+"will only be added if the booking is indeed an Ongoing Event."
+msgstr ""
+
+#: classes/class-ical.php:26
+msgid ""
+"Each item will show the Event Name, Event Location, Event Excerpt and the "
+"start & end time per event."
+msgstr ""
+
+#: classes/class-ical.php:26
+msgid ""
+"Depending on the calendar app used, the item will show a map of the location."
+msgstr ""
+
+#: classes/class-metabox.php:11
+msgid "Ongoing Event"
+msgstr ""
+
+#: classes/class-metabox.php:22
+msgid "This is a Recurring Event."
+msgstr ""
+
+#: classes/class-metabox.php:22
+msgid "It cannot also be an ongoing event. You would have to detach it first."
+msgstr ""
+
+#: classes/class-metabox.php:43
+#, php-format
+msgctxt "This is item # of Main Event"
+msgid "This is %1$s %2$s of <a href=%3$s>%4$s</a>."
+msgstr ""
+
+#: classes/class-metabox.php:44
+msgid "Sub Event Details and Bookings are maintained in the Main Event."
+msgstr ""
+
+#: classes/class-metabox.php:61
+msgid "Dates, times and booking are maintained here."
+msgstr ""
+
+#: classes/class-metabox.php:69
+#, php-format
+msgid "You may want to use the shortcode %s in your content."
+msgstr ""
+
+#: classes/class-metabox.php:140
+msgid "The end time cannot before the start time."
+msgstr ""
+
+#: classes/class-public.php:76
+msgid "Click here to add to your calendar"
+msgstr ""
+
+#: stonehenge/class-core.php:181
+msgid ""
+"Not all required fields were filled out. Please check all sections and try "
+"again."
+msgstr ""
+
+#: stonehenge/class-functions.php:22
+#, php-format
+msgid "%s requires <strong>%s</strong> to be installed & activated."
+msgstr ""
+
+#: stonehenge/class-functions.php:159
+#, php-format
+msgid ""
+"To edit this template, first copy the original file, before making "
+"adjustments. <br>%s"
+msgstr ""
+
+#: stonehenge/class-functions.php:185
+msgid "New options have been added."
+msgstr ""
+
+#: stonehenge/class-functions.php:187
+#, php-format
+msgctxt "Please check your settings and click on \"Save Changes\"."
+msgid "Please check your <a href=%1$s>%2$s</a> and click on \"%3$s\"."
+msgstr ""
+
+#: stonehenge/class-functions.php:201
+msgid ""
+"You can use the filter <code>%s</code> with these variables: <code>%l</code>."
+msgstr ""
+
+#: stonehenge/class-functions.php:208
+msgid ""
+"You can hook into this by using the <code>%s</code> action hook and these "
+"variables: <code>%l</code>."
+msgstr ""
+
+#: stonehenge/class-functions.php:215
+msgid "Important"
+msgstr ""
+
+#: stonehenge/class-functions.php:215
+msgid ""
+"Enabling this section will schedule a WP Cron Job to run daily at the given "
+"time."
+msgstr ""
+
+#: stonehenge/class-functions.php:216
+msgid ""
+"If you set this option to \"No\" or deactivate this plugin, the WP Cron Job "
+"will be cancelled immediately."
+msgstr ""
+
+#: stonehenge/class-functions.php:217
+msgid ""
+"Reactivating this plugin will reschedule the WP Cron Job (or not) according "
+"to the last saved settings."
+msgstr ""
+
+#: stonehenge/class-functions.php:218
+msgid ""
+"If you have a low-traffic website, it is best to not rely on the default WP "
+"Cron Jobs."
+msgstr ""
+
+#: stonehenge/class-functions.php:218
+msgid "Tom McFarlin wrote a great read on how to solve that."
+msgstr ""
+
+#: stonehenge/class-license.php:138
+msgid "Sorry, you are not allowed to manage plugins for this site."
+msgstr ""
+
+#: stonehenge/class-license.php:163
+msgid "License"
+msgstr ""
+
+#: stonehenge/class-mailer.php:95
+#, php-format
+msgid "This plugin will use the credentials in %s to send emails."
+msgstr ""
+
+#: stonehenge/class-mailer.php:98
+msgid ""
+"If defined, the header, footer and CSS markup will be automatically applied."
+msgstr ""
+
+#: stonehenge/class-plugins.php:64
+msgid "Already Installed"
+msgstr ""
+
+#: stonehenge/class-plugins.php:68
+msgid "Install Now"
+msgstr ""
+
+#: stonehenge/class-plugins.php:140
+msgid "More info"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Events Manager - Ongoing Events"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.stonehengecreations.nl/creations/stonehenge-em-ongoing-events/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Link single events together with one booking form. Perfect for courses, "
+"classes, multi-day seminars, etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stonehenge Creations"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.stonehengecreations.nl/"
+msgstr ""

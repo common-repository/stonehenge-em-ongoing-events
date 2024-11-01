@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Manager - Ongoing Events\n"
+"POT-Creation-Date: 2020-06-11 13:16+0200\n"
+"PO-Revision-Date: 2020-06-11 13:25+0200\n"
+"Last-Translator: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"Language-Team: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: stonehenge-em-ongoing-events.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/class-admin.php:20
+msgid "How do Ongoing Events work?"
+msgstr "Hoe werken Doorlopende Evenementen?"
+
+#: classes/class-admin.php:20
+msgid ""
+"This add-on lets you create single events that are linked together, but only "
+"require one booking for the user to attend all events. This can be useful if "
+"you are organizing classes, multi-day workshops or seminars, for example."
+msgstr ""
+"Met deze add-on kun je losse evenementen maken die wel aan elkaar zijn "
+"gekoppeld, maar slechts één reservering nodig hebben om de bepruiken toch "
+"voor alle evenementen in te schrijven. Dit kan handig zijn als je "
+"bijvoorbeeld lessen, meerdaagse workshops of seminars organiseert."
+
+#: classes/class-admin.php:20
+msgid ""
+"The idea is that you create one single event as the first day of this "
+"ongoing series. In that event you can specify the other dates and times for "
+"the underlying events."
+msgstr ""
+"Het idee is, dat je één los evenement als de eerste dag van deze doorlopende "
+"serie aanmaakt. In dat evenement kun je de overige data en tijden van de "
+"onderliggende evenementen opgeven."
+
+#: classes/class-admin.php:20
+msgid ""
+"When you publish the main event, the sub events will be created "
+"automatically. Their content will reflect that it is an ongoing sub event "
+"and link back to the booking form of the main event."
+msgstr ""
+"Zodra je het hoofd-evenement publiceert, worden alle sub-evenementen "
+"automatisch aangemaakt. Hun inhoud zal duidelijk maken dat het een sub-"
+"evenement betreft en terug linken naar het reserveringsformulier van het "
+"hoofd-evenement."
+
+#: classes/class-admin.php:20
+msgid ""
+"If you do not want to display the predefined Ongoing Events Table, simply "
+"remove the shortcode from the page content after creation."
+msgstr ""
+"Als je de vooraf gedefinieerde tabel met Doorlopende Evenementen niet wilt "
+"tonen, verwijder dan simpelweg de shortcode uit de pagina-inhoud."
+
+#: classes/class-admin.php:20
+msgid ""
+"<b>Note:</b> Dates and times of the sub events can only be maintained in the "
+"main event."
+msgstr ""
+"<b>Let op:</b> Data en tijden van de sub-evenementen kunnen uitsluitend "
+"vanuit het hoofd-evenement worden beheerd."
+
+#: classes/class-admin.php:20
+msgid "Date & Time settings."
+msgstr "Datum- en tijdinstellingen."
+
+#: classes/class-admin.php:20
+#, php-format
+msgid ""
+"This add-on will use the formatting settings in %s to display dates and time."
+msgstr ""
+"Deze add-on gebruikt de opmaakinstellingen in %s om datums en tijden te "
+"tonen."
+
+#: classes/class-admin.php:20
+msgid ""
+"The jQuery variant for date and time pickers will be automatically converted "
+"to have the same lay-out as their PHP equivalents, so there are no new "
+"settings to be set."
+msgstr ""
+"De jQuery-variant voor datum- en tijdkiezers wordt automatisch omgezet naar "
+"dezelfde lay-out als hun PHP-equivalenten, dus hoeven er geen nieuwe "
+"instellingen te worden ingesteld."
+
+#: classes/class-admin.php:24
+msgid "Show Info"
+msgstr "Toon Info"
+
+#: classes/class-admin.php:27
+msgid ""
+"Would you like to show Ongoing Events info in the Admin Events List page?"
+msgstr ""
+"Wil je informatie over Doorlopende Evenement in de Evenementenlijst-pagina "
+"in de Admin tonen?"
+
+#: classes/class-admin.php:32
+msgid "Delete Data"
+msgstr "Verwijder Data"
+
+#: classes/class-admin.php:35
+msgid ""
+"Automatically delete all data from your database when you uninstall this "
+"plugin?"
+msgstr ""
+"Automatisch alle data uit de database verwijderen als je deze plugin de-"
+"installeert?"
+
+#: classes/class-admin.php:49
+msgid ""
+"Please specify below how you want certain fields of the sub events to be "
+"named. Your input will be used throughout this plugin in the Admin and Front-"
+"End."
+msgstr ""
+"Geef hieronder aan hoe je bepaalde velden wilt benoemen. Je invoer zal "
+"overal in deze plugin gebruikt worden, zowel aan de beheerders- als voorkant."
+
+#: classes/class-admin.php:53
+msgid "Ask to Enable"
+msgstr "Vragen om in te schakelen"
+
+#: classes/class-admin.php:56
+msgid "This question will be shown in the Edit Event Page before the toggle."
+msgstr ""
+"Deze vraag wordt in de “Evenement bewerken”-pagina vóór de toggle getoond."
+
+#: classes/class-admin.php:57
+msgid "Does this event span over multiple days?"
+msgstr "Duurt dit evenement meerdere dagen?"
+
+#: classes/class-admin.php:61 classes/class-admin.php:69
+#: classes/class-admin.php:77 classes/class-admin.php:86
+#, php-format
+msgid "Label for %s"
+msgstr "Label voor %s"
+
+#: classes/class-admin.php:61
+msgid "Item"
+msgstr "Item"
+
+#: classes/class-admin.php:63
+msgid "Day"
+msgstr "Dag"
+
+#: classes/class-admin.php:65
+msgid "This indicates the Sub Event. Use something like \"Day\" or \"Part\"."
+msgstr "Dit geeft het subevenement aan. Gebruik iets als “Dag” of “Deel”."
+
+#: classes/class-admin.php:90
+msgid "This is the Header of the [ongoing-events] table."
+msgstr "Dit is de koptekst van de [ongoing-events] tabel."
+
+#: classes/class-admin.php:94
+msgid "Booking Notice"
+msgstr "Kennisgeving bij Reservering"
+
+#: classes/class-admin.php:98
+msgid ""
+"This message is shown below the Ongoing Events Table to tell visitors they "
+"only have to book one time for all dates."
+msgstr ""
+"Dit bericht wordt onder de Doorlopende Evenementen Tabel getoond om bezoeker "
+"te laten weten dat ze slechts één reservering voor alle data hoeven te "
+"plaatsen."
+
+#: classes/class-admin.php:102
+msgid "Wildcards"
+msgstr "Jokers"
+
+#: classes/class-admin.php:104
+msgid ""
+"You can use the following wildcards in sections below to target the specific "
+"information:"
+msgstr ""
+"Je kunt de volgende jokers in de onderdelen hieronder gebruiken om "
+"specifieke informatie te tonen:"
+
+#: classes/class-admin.php:108
+msgid "Sub Event Indication"
+msgstr "Sub-evenement indicatie"
+
+#: classes/class-admin.php:115
+msgid "Sub Event Content"
+msgstr "Sub-evenement Inhoud"
+
+#: classes/class-admin.php:125
+msgid "Sub Event Excerpt"
+msgstr "Sub-evenement samenvatting"
+
+#: classes/class-admin.php:140
+msgid "Displays post ID of the Main Event."
+msgstr "Toont het post-ID van het hoofd-evenement."
+
+#: classes/class-admin.php:141
+msgid "Displays event name of the Main Event."
+msgstr "Toont de naam van het hoofd-evenement."
+
+#: classes/class-admin.php:142
+msgid "Displays start date of the Main Event."
+msgstr "Toont de startdatum van het hoofd-evenement."
+
+#: classes/class-admin.php:143
+msgid "Displays start time of the Main Event."
+msgstr "Toont de starttijd van het hoofd-evenement."
+
+#: classes/class-admin.php:144
+msgid "Displays end time of the Main Event."
+msgstr "Toont de eindtijd van het hoofd-evenement."
+
+#: classes/class-admin.php:145
+msgid "Displays label of each sub event (first field above)."
+msgstr "Toont het label van elk sub-evenement (eerste veld hierboven)."
+
+#: classes/class-admin.php:146
+msgid "Displays the incremented number of this specific Sub Event."
+msgstr "Toont het opgehoogde nummer van dit specifieke sub-evenement."
+
+#: classes/class-admin.php:147
+msgid "Displays the start date of this specific Sub Event."
+msgstr "Toont de startdatum van dit sub-evenement."
+
+#: classes/class-admin.php:148
+msgid "Displays the start time of this specific Sub Event."
+msgstr "Toont de starttijd van dit sub-evenement."
+
+#: classes/class-admin.php:149
+msgid "Displays the end time of this specific Sub Event."
+msgstr "Toont de eindtijd van dit sub-evenement."
+
+#: classes/class-admin.php:150
+msgid "Displays the date of the last event in this series."
+msgstr "Toont de datum van het laatste sub-evenement in deze serie."
+
+#: classes/class-functions.php:94 classes/class-metabox.php:60
+msgid "This is the main event of an ongoing event series."
+msgstr "Dit is het hoofd-evenement van een doorlopende serie."
+
+#: classes/class-functions.php:95
+msgid "Dates and booking are maintained here."
+msgstr "Datums en reserveringen worden hier beheerd."
+
+#: classes/class-functions.php:96 classes/class-metabox.php:62
+msgid ""
+"If you delete this event, all linked sub-events will be deleted as well."
+msgstr ""
+"Als je dit evenement verwijdert, worden ook alle sub-evenementen gewist."
+
+#: classes/class-functions.php:105
+msgid "These details are maintained in the Main Event."
+msgstr "Deze details worden in het hoofd-evenement beheerd."
+
+#: classes/class-functions.php:155
+msgid "Events Manager Settings"
+msgstr "Events Manager-instellingen"
+
+#: classes/class-functions.php:156
+#, php-format
+msgctxt "This plugin uses the formatting in your settings"
+msgid "This plugin uses the %1$s in your %2$s."
+msgstr "Deze plugin gebruikt de %1$s in je %2$s."
+
+#: classes/class-functions.php:206
+msgid "This is a Main Event of an ongoing event series."
+msgstr "Dit is het hoofdevenement van een doorlopende serie."
+
+#: classes/class-ical.php:20
+#, php-format
+msgid ""
+"To display the Ongoing Events Table in your %s, you can use the placeholder "
+"%s."
+msgstr ""
+"Om de Doorlopende Evenementen-tabel in je %s te tonen, kun je placeholder %s "
+"gebruiken."
+
+#: classes/class-ical.php:26
+#, php-format
+msgid ""
+"By adding the placeholder %s to end of your %s, a .ics file will be added to "
+"the email."
+msgstr ""
+"Door de placeholder %s aan het einde van je %s toe te voegen, wordt er een ."
+"ics-bestand aan de e-mail toegevoegd."
+
+#: classes/class-ical.php:26
+msgid ""
+"The attachment will only contain the events in its own Ongoing Series and "
+"will only be added if the booking is indeed an Ongoing Event."
+msgstr ""
+"De bijlage zal alleen de evenementen in de eigen Doorlopende Serie bevatten "
+"en alleen worden toegevoegd als de reservering inderdaad een Doorlopend "
+"Evenement is."
+
+#: classes/class-ical.php:26
+msgid ""
+"Each item will show the Event Name, Event Location, Event Excerpt and the "
+"start & end time per event."
+msgstr ""
+"Elk item zal de naam, locatie, uittreksel en de start- en eindtijd van elk "
+"evenement tonen."
+
+#: classes/class-ical.php:26
+msgid ""
+"Depending on the calendar app used, the item will show a map of the location."
+msgstr ""
+"Afhankelijk van de gebruikte agenda-app zal het item ook een kaart van de "
+"locatie tonen."
+
+#: classes/class-metabox.php:11
+msgid "Ongoing Event"
+msgstr "Doorlopend Evenement"
+
+#: classes/class-metabox.php:22
+msgid "This is a Recurring Event."
+msgstr "Dit is een Terugkerend Evenement."
+
+#: classes/class-metabox.php:22
+msgid "It cannot also be an ongoing event. You would have to detach it first."
+msgstr ""
+"Dit kan niet óók een doorlopend evenement zijn. Je zou het eerst moeten "
+"loskoppelen."
+
+#: classes/class-metabox.php:43
+#, php-format
+msgctxt "This is item # of Main Event"
+msgid "This is %1$s %2$s of <a href=%3$s>%4$s</a>."
+msgstr "Dit is %1$s %2$s van <a href=%3$s>%4$s</a>."
+
+#: classes/class-metabox.php:44
+msgid "Sub Event Details and Bookings are maintained in the Main Event."
+msgstr ""
+"Details en reserveringen van het sub-evenement worden in het hoofd-evenement "
+"beheerd."
+
+#: classes/class-metabox.php:61
+msgid "Dates, times and booking are maintained here."
+msgstr "Datums, tijden en reserveringen worden hier beheerd."
+
+#: classes/class-metabox.php:69
+#, php-format
+msgid "You may want to use the shortcode %s in your content."
+msgstr "Misschien wil je de shortcode %s in je inhoud gebruiken."
+
+#: classes/class-metabox.php:140
+msgid "The end time cannot before the start time."
+msgstr "De eindtijd kan niet vóór de starttijd liggen."
+
+#: classes/class-public.php:76
+msgid "Click here to add to your calendar"
+msgstr "Klik hier om aan je agenda toe te voegen"
+
+#: stonehenge/class-core.php:181
+msgid ""
+"Not all required fields were filled out. Please check all sections and try "
+"again."
+msgstr ""
+"Niet alle verplichte velden zijn ingevuld. Controleer alle onderdelen en "
+"probeer het opnieuw."
+
+#: stonehenge/class-functions.php:22
+#, php-format
+msgid "%s requires <strong>%s</strong> to be installed & activated."
+msgstr "%s vereist dat <strong>%s</strong> geïnstalleerd en geactiveerd is."
+
+#: stonehenge/class-functions.php:159
+#, php-format
+msgid ""
+"To edit this template, first copy the original file, before making "
+"adjustments. <br>%s"
+msgstr ""
+"Als je dit sjabloon wilt bewerken, moet je, voordat je aanpassingen maakt, "
+"eerst het originele bestand kopiëren <br>%s"
+
+#: stonehenge/class-functions.php:185
+msgid "New options have been added."
+msgstr "Er zijn nieuwe opties toegevoegd."
+
+#: stonehenge/class-functions.php:187
+#, php-format
+msgctxt "Please check your settings and click on \"Save Changes\"."
+msgid "Please check your <a href=%1$s>%2$s</a> and click on \"%3$s\"."
+msgstr "Controleer je <a href=%1$s>%2$s</a> en klik op “%3$s”."
+
+#: stonehenge/class-functions.php:201
+msgid ""
+"You can use the filter <code>%s</code> with these variables: <code>%l</code>."
+msgstr ""
+"Je kunt het filter <code>%s</code> met de variabelen gebruiken: <code>%l</"
+"code>."
+
+#: stonehenge/class-functions.php:208
+msgid ""
+"You can hook into this by using the <code>%s</code> action hook and these "
+"variables: <code>%l</code>."
+msgstr ""
+"Je kunt hier op inhaken door de <code>%s</code> action hook en deze "
+"variabelen te gebruiken: <code>%l</code>."
+
+#: stonehenge/class-functions.php:215
+msgid "Important"
+msgstr "Belangrijk"
+
+#: stonehenge/class-functions.php:215
+msgid ""
+"Enabling this section will schedule a WP Cron Job to run daily at the given "
+"time."
+msgstr ""
+"Door deze optie in te schakelen, wordt er op de gegeven tijd een degelijke "
+"WP Cron Job ingepland."
+
+#: stonehenge/class-functions.php:216
+msgid ""
+"If you set this option to \"No\" or deactivate this plugin, the WP Cron Job "
+"will be cancelled immediately."
+msgstr ""
+"Als je deze optie op “Nee” zet of deze plugin deactiveert, zal de WP Cron "
+"Job onmiddellijk geannuleerd worden."
+
+#: stonehenge/class-functions.php:217
+msgid ""
+"Reactivating this plugin will reschedule the WP Cron Job (or not) according "
+"to the last saved settings."
+msgstr ""
+"Als je de plugin opnieuw activeert, wordt de WP Cron Job volgens de laatst "
+"bewaarde instellingen wel/niet ingepland."
+
+#: stonehenge/class-functions.php:218
+msgid ""
+"If you have a low-traffic website, it is best to not rely on the default WP "
+"Cron Jobs."
+msgstr ""
+"As je een website met weinig verkeer hebt, kun je beter niet op de standaard "
+"WP Cron Jobs vertrouwen."
+
+#: stonehenge/class-functions.php:218
+msgid "Tom McFarlin wrote a great read on how to solve that."
+msgstr "Tom McFarlin heeft een geweldig stuk geschreven om dit op te lossen."
+
+#: stonehenge/class-license.php:138
+msgid "Sorry, you are not allowed to manage plugins for this site."
+msgstr ""
+
+#: stonehenge/class-license.php:163
+msgid "License"
+msgstr "Licentie"
+
+#: stonehenge/class-mailer.php:95
+#, php-format
+msgid "This plugin will use the credentials in %s to send emails."
+msgstr "Deze plugin zal de gegevens in %s gebruiken om e-mails te versturen."
+
+#: stonehenge/class-mailer.php:98
+msgid ""
+"If defined, the header, footer and CSS markup will be automatically applied."
+msgstr ""
+"Indien ingevuld, worden de hoofdtekst, voettekst en CSS automatisch "
+"toegepast."
+
+#: stonehenge/class-plugins.php:64
+msgid "Already Installed"
+msgstr ""
+
+#: stonehenge/class-plugins.php:68
+msgid "Install Now"
+msgstr "Installeer Nu"
+
+#: stonehenge/class-plugins.php:140
+msgid "More info"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Details bekijken"
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Meer informatie over %s"
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Controleer op updates"
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "De %s plugin is bijgewerkt."
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Er is een nieuwe versie van de %s plugin beschikbaar."
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Kon niet bepalen of updates beschikbaar zijn voor %s."
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Onbekende update checker status \"%s\""
+
+#: stonehenge/server/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Er is geen changelog beschikbaar."
+
+#. Plugin Name of the plugin/theme
+msgid "Events Manager - Ongoing Events"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.stonehengecreations.nl/creations/stonehenge-em-ongoing-events/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Link single events together with one booking form. Perfect for courses, "
+"classes, multi-day seminars, etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stonehenge Creations"
+msgstr "Stonehenge Creations"
+
+#. Author URI of the plugin/theme
+msgid "https://www.stonehengecreations.nl/"
+msgstr "https://www.stonehengecreations.nl/"
